@@ -292,7 +292,7 @@ theme.set_highlights = function()
 
 	-- IndentLine
 	hl(0, "IndentLine", { fg = c.dark_grey_3, bg = "NONE" })
-	hl(0, "IndentLineCurrent guifg=#444444", { fg = c.dark_grey_4, bg = "NONE" })
+	hl(0, "IndentLineCurrent", { fg = c.dark_grey_4, bg = "NONE" })
 
 	-- Telescope
 	hl(0, "TelescopeSelection", { fg = "NONE", bg = c.select })
