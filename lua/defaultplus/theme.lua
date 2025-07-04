@@ -294,6 +294,10 @@ theme.set_highlights = function()
 	hl(0, "IndentLine", { fg = c.dark_grey_3, bg = "NONE" })
 	hl(0, "IndentLineCurrent", { fg = c.dark_grey_4, bg = "NONE" })
 
+	-- Snacks Indent
+	hl(0, "SnacksIndent", { fg = c.dark_grey_3, bg = "NONE" })
+	hl(0, "SnacksIndentScope", { fg = c.dark_grey_4, bg = "NONE" })
+
 	-- Telescope
 	hl(0, "TelescopeSelection", { fg = "NONE", bg = c.select })
 	hl(0, "TelescopeSelectionCaret", { fg = c.ui_blue, bg = c.select })
